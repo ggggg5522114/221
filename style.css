@@ -97,10 +97,10 @@ header {
     margin-bottom: 40px;
 }
 
-/* شبكة المحافظات */
+/* شبكة المحافظات المحدثة لملء المساحات بشكل ممتاز */
 .provinces-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 20px;
     margin-top: 20px;
 }
@@ -328,5 +328,7 @@ header {
     border: none;
     cursor: pointer;
     text-decoration: underline;
+    font-size: 14px;
+}    text-decoration: underline;
     font-size: 14px;
 }
